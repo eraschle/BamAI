@@ -1,0 +1,5 @@
+id,label,segment_id
+0,wall,300
+1,door,301
+2,window,302
+3,column,303

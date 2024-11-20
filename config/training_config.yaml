@@ -1,0 +1,12 @@
+data:
+  test_split: data/processed/test_data.npy
+  train_split: data/processed/train_points.npy
+  val_split: data/processed/val_data.npy
+model:
+  input_features: 3
+  num_classes: 4
+  type: PointNet
+training:
+  batch_size: 16
+  epochs: 50
+  learning_rate: 0.001

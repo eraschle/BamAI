@@ -1,0 +1,15 @@
+files:
+  coordinates: data/raw/object_coordinates.json
+  labels:
+    search:
+      - "*_labels.npy"
+    dir_path:
+      - data/raw/families/
+  puwo:
+    search:
+      - "*.ply"
+    dir_path:
+      - data/raw/families/
+radius_filtering:
+  default_radius: 1.0
+  enabled: true
